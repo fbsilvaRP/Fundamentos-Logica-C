@@ -1,4 +1,4 @@
-/*Algoritmo em C para escolher r, dentre n números, sem importar a ordem (Combinação) - Cn,p*/
+/*Algoritmo em C para escolher r, dentre n números, sem importar a ordem (Combinação) - Cn,p. Feito em 02/01/2025 */
 #include <stdio.h>
 int main()
 {
