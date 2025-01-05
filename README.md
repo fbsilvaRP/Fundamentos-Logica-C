@@ -1,2 +1,2 @@
 # Fundamentos
-Repositório criado para armazenar práticas e exercícios iniciais de programação em C, modificados do livro Algoritmos e Lógica de programação
+Repositório com exercícios adaptados do livro Algoritmos e Lógica de Programação: um texto introdutório para a engenharia / Marco Antonio Furlan De Souza -3.ed. - São Paulo, SP:Cengage.
