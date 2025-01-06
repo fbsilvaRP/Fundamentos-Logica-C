@@ -16,7 +16,7 @@ int main()
 		printf("(a + b)^%d = ", n);							
 		for(int coluna = 0; coluna <= n; coluna++)
 		{
-			int nfat = 1, rfat = 1, nrfat = 1, c;				//Var. declaradas para o cálculo da combinação (nfat = n!, rfat = r! e nrfat = (n - r)!
+			int nfat = 1, rfat = 1, nrfat = 1, c;					//Var. declaradas para o cálculo da combinação (nfat = n!, rfat = r! e nrfat = (n - r)!
 			
 			//Cálculo da combinação de cada elemento
 			for(int k = 1; k <= n; k++)
@@ -27,19 +27,19 @@ int main()
 				nrfat *= k;
 			c = nfat / (rfat * nrfat);						//C = n! / (r! * (n-r)!) n é o numero da linha decidido pelo usuário, r é o número da coluna em cálculo	
 		 
-			printf("%d ", c);								//Exibe o valor coeficiente calculado (resultado da combinação)
+			printf("%d ", c);							//Exibe o valor coeficiente calculado (resultado da combinação)
 			if(expA > 0)								
 				printf("A ^ %d ", expA);					//Se o expoente de A for maior que zero, a letra A é exibida após o coeficiente 
 			if(expB > 0)
 				printf("B ^ %d ", expB);					//Se o expoente de B for maior que zero, a letra B é exibida após o coeficiente
-			expA--; 									//A cada coeficiente exibido, o expoente de A é reduzido em uma unidade
+			expA--; 								//A cada coeficiente exibido, o expoente de A é reduzido em uma unidade
 			expB++;									//A cada coeficiente exibido, o expoente de B é acrescido em uma unidade
 			if (coluna < n)								//O operador de adição será exibido até o penúltimo coeficiente calculado
 				printf(" + ");
 			
 		}
 		printf("\nDeseja fazer novamente? SIM[1] ou NAO[0] \nR: ");		
-		scanf("%d", &op);									//Recebe a decisão do usuário se continuará ou não o programa
+		scanf("%d", &op);								//Recebe a decisão do usuário se continuará ou não o programa
 		system("cls");									//Clear screen
 	}
 }
